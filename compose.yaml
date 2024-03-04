@@ -7,7 +7,7 @@ services:
     command: ros2 run demo_nodes_cpp talker
 
   ros2router:
-    image: husarnet/ros2router:1.9.0 # we have different a versioning and we're using DDS Router v2.1.0 inisde this docker image
+    image: husarnet/ros2router:1.9.0 # we have different versioning and we're using DDS Router v2.1.0 inisde this docker image
     volumes:
       - ./config.yaml:/config.yaml
     environment:
