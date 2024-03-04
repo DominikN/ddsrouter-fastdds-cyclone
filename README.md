@@ -38,7 +38,7 @@ services:
     command: ros2 run demo_nodes_cpp listener
 ```
 
-### FastDDS <> Cylone
+### FastDDS <> Cyclone
 
 This setup fails (no talker-listener communication):
 
